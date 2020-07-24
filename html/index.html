@@ -1,0 +1,106 @@
+<!DOCTYPE HTML>
+<html lang="pt-br">
+
+<head>
+	<meta charset="UTF-8">
+
+	<title>Jogo da velha</title>
+
+	<!--CSS-->
+	<link rel="stylesheet" type="text/css" href="../css/estilo.css" />
+
+	<!--Jquery-->
+	<script src="../js/jquery-2.2.1.js"></script>
+
+	<script src="../js/jogo.js"></script>
+</head>
+
+<body>
+
+	<div id="PaginaInicial" align="center">
+		<table width="600px;">
+			<tbody>
+				<tr>
+					<td colspan="3" align="center">JOGO DA VELHA</td>
+				</tr>
+
+				<tr>
+					<td align="center">
+						<img src="../img/jogador_1.png" />
+						<br />
+						<input id="NomeJogador1" type="text" placeholder="Nome jogador 1" maxlength="10"
+							style="border: 0;">
+					</td>
+					<td align="center">
+						<img src="../img/iniciar.png" id="BotaoIniciar" />
+					</td>
+					<td align="center">
+						<img src="../img/jogador_2.png" />
+						<br />
+						<input id="NomeJogador2" type="text" placeholder="Nome jogador 2" maxlength="10"
+							style="border: 0;">
+					</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+
+	<div id="PalcoJogo " class="areaPalco">
+		<div class="alinhar">
+			<img src="../img/jogador_1.png" />
+			<br>
+			<span id="NomeJogador1Palco"></span>
+		</div>
+
+
+		<div class="alinhar">
+			<table border="0">
+				<tbody>
+					<tr>
+						<td>
+							<div id="a-1" class="areaCampoPalco palitoInferiorDireito jogada"></div>
+						</td>
+						<td>
+							<div id="a-2" class="areaCampoPalco palitoInferiorDireito jogada"></div>
+						</td>
+						<td>
+							<div id="a-3" class="areaCampoPalco palitoInferior jogada"></div>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<div id="b-1" class="areaCampoPalco palitoInferiorDireito jogada"></div>
+						</td>
+						<td>
+							<div id="b-2" class="areaCampoPalco palitoInferiorDireito jogada"></div>
+						</td>
+						<td>
+							<div id="b-3" class="areaCampoPalco palitoInferior jogada"></div>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<div id="c-1" class="areaCampoPalco palitoDireito jogada"></div>
+						</td>
+						<td>
+							<div id="c-2" class="areaCampoPalco palitoDireito jogada"></div>
+						</td>
+						<td>
+							<div id="c-3" class="areaCampoPalco jogada"></div>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+
+
+		<div class="alinhar">
+			<img src="../img/jogador_2.png" />
+			<br />
+			<span id="NomeJogador2Palco"></span>
+		</div>
+	</div>
+
+</body>
+
+</html>

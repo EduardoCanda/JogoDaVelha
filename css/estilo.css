@@ -1,0 +1,27 @@
+.alinhar{
+    display: inline-block;
+}
+
+.areaPalco{
+    margin-top: 50px;
+    text-align: center;
+    display: none;
+}
+
+.areaCampoPalco{
+    width: 100px;
+    height: 100px;
+}
+
+.palitoInferiorDireito{
+    border-bottom: 1px solid red;
+    border-right: 1px solid red;
+}
+
+.palitoInferior{
+    border-bottom: 1px solid red;
+}
+
+.palitoDireito{
+    border-right: 1px solid red;
+}
